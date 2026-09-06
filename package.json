@@ -1,0 +1,14 @@
+{
+  "name": "accelerated-jam-tracks-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static site for acceleratedjamtracks.com — logo and a Jam Tracks video grid generated from public/videos.json. Plain HTML/CSS/JS, no build step.",
+  "scripts": {
+    "dev": "wrangler dev",
+    "start": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4"
+  }
+}
